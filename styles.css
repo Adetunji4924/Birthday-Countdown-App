@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url("image/Fondo fotográfico que usa el azul como base, mezclado con negro en el borde exterior.jpeg");
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-position: center center;
+    background-size: cover;
+}
+
+.count{
+    margin-top: 3rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.days, .hours, .minutes, .seconds{
+    margin: 0 .5rem;
+}
+
+.days-time, .hours-time, .minutes-time, .seconds-time{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+    margin: .3rem 0;
+}
+
+li{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem .5rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.container3 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .5rem;
+    gap: 1rem;
+}
+
+.pg2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.container4 p{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1;
+    transition: .7s;
+}
+a:hover{
+    color: rgba(246, 199, 10, 0.64);
+}
+
+.footer{
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 3rem;
+    color: black;
+}
+
+.footer p{
+    text-align: center;
+    font-weight: 600;
+}
+
+@media  (min-width:600px) {
+    .container1{
+        margin: 3rem 5rem;
+    }
+
+    .days-time, .hours-time, .minutes-time, .seconds-time{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .days, .hours, .minutes, .seconds{
+        margin: 1.5rem;
+    }
+}
+
+@media (min-width:900px) {
+    .container1{
+        margin: 5rem 10rem;
+    }
+}
